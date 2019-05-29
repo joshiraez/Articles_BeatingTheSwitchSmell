@@ -1,4 +1,9 @@
 package behaviouralSwitch.sentence
 
-class BehaviourSwitchSentenceTest {
+import spock.lang.Specification
+
+class BehaviourSwitchSentenceTest extends Specification {
+    def sentenceClass = new BehaviourSwitch()
+
+
 }
