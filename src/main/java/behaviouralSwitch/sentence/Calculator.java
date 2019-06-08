@@ -1,6 +1,6 @@
 package behaviouralSwitch.sentence;
 
-public class Calculator  {
+public class Calculator {
 
     public int calculate(char op, int n1, int n2) {
 
@@ -15,6 +15,9 @@ public class Calculator  {
                 break;
             case 'x':
                 result = n1 * n2;
+                break;
+            case '/':
+                result = n1 / n2;
                 break;
             default:
                 throw new IllegalArgumentException();
